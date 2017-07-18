@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <head><name>Percy Bysshe Shelley</name>, <title>"Ozymandias"</title></head>
+     </front>
+     <body>
+         <l><q type="poetspeaker"/>I met a traveller from an antique land,</l>
+         <l>Who said  —<q/><q type="traveller"/>“Two vast and trunkless legs of stone</l>
+          <l>Stand in the desart.... Near them, on the sand,</l>
+         <l>Half sunk a shattered visage lies, whose frown,</l>
+            <l>And wrinkled lip, and sneer of cold command,</l>
+            <l>Tell that its sculptor well those passions read</l>
+           <l> Which yet survive, stamped on these lifeless things,</l>
+            <l>The hand that mocked them, and the heart that fed;</l>
+            <l>And on the pedestal, these words appear:<q/></l>
+           <l> <q type="Ozymandias"/>My name is Ozymandias, King of Kings,</l>
+            <l>Look on my Works, ye Mighty, and despair!<q/></l>
+            <l>Nothing beside remains. Round the decay</l>
+           <l> Of that colossal Wreck, boundless and bare</l>
+            <l>The lone and level sands stretch far away.”<q/>.</l>
+     </body>
+  </text>
+</TEI>
