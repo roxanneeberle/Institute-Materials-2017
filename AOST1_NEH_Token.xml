@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Amelia Alderson Opie: Digital Archive of Correspondence
+            </title>
+            <author>
+               <name>Opie, Amelia, 1769-1853</name>
+            </author>
+            <editor>Roxanne Eberle</editor>
+         </titleStmt>  
+         <editionStmt> 
+            <edition>
+               <date>2017-02-09</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>First of the Amelia (Alderson) Opie to Susannah Taylor letters. </p>
+            <p><idno>AOST1</idno></p>  
+         </publicationStmt>
+         <sourceDesc> 
+            <p>For permission to publish the text of MSS in their possession, the editor would like to thank The New York Public Library's Berg Collection. It is partially transcribed in Cecilia Brightwell’s <emph>Memorials</emph> (41-45) with some editorial excision</p>
+            
+            <p>A fellowship from the University of Georgia Office of the Senior Vice President for Academic Affairs and Provost has provided support to this project. A UGA Study in a Second Discipline allowed me
+               to work with the UGA DigiLab, supervised by Emily McGinn (Director, UGA DigiLab)</p>
+         </sourceDesc> 
+      </fileDesc>
+      <encodingDesc>
+         <p>Dashes within the mss. letters have been signified by using Unicode. When Opie employs a particularly long dash an attempt has been made to give the reader a sense of her own hand. 
+            Opie frequently underlines words but to make the letter easier to read I have instead italicized underlined words and phrases. When a word or phrase has been underlined more than once, 
+            I append a note directing the reader to the facsimile.</p>
+         <p>Opie's spelling has not been regularized other than where she employs an ampersand to signify the word <emph>and</emph> or <emph>y</emph>&#2091;<emph>e</emph> to signify "the." Words that are unreadable or partly illegible have been set off by [brackets]. </p>
+         <p>When the letters have been heavily obscured by ink or otherwise annotated, it has been noted.</p>
+         <p>In letters without an accompanying extant manuscript, I have retained the editor's internal marks (i.e. Brightwell's use of asterisks, etc.).</p>
+      </encodingDesc>         
+   </teiHeader>
+  
+  <text>
+    <body>
+      
+        <head>
+           <title> Amelia Alderson [Opie] to
+              <listPerson type="addressee">
+                 <person xml:id="ST"><ab>Susannah Taylor</ab></person>
+              </listPerson></title>
+           
+           <date>
+              <corr>
+                 <date resp="editors" when="1794-08-26">August 26, 1794</date>
+                 <note place="foot" resp="editor" type="headnote">For permission to publish the text of manuscript in their possession, the editor would like to thank The New York Public Library's Berg Collection. It is partially transcribed in Cecilia Brightwell’s <emph>Memorials of the life of Amelia Alderson
+                 Opie, selected and arranged from her letters, diaries, and other manuscripts</emph> (Fletcher and Alexander, 1854, pp. 41-45) 
+                    where it is given a header of "Tuesday 1794". Using internal evidence and cross-referencing with the calendar employed by <ref target="http://godwindiary.bodleian.ox.ac.uk/">William
+                       Godwin's Diary, </ref>I have given the letter a more precise date. 
+                    Godwin notes that he received a call from Amelia Alderson and John Boddington on Tuesday, August 26th. Although there is no address fold, it is clear from internal evidence that
+                    Opie is writing the letter from Southgate, a suburb of London and sending it to Taylor in Norwich. Unfortunately, the manuscript letter breaks off abruptly and is incomplete</note>    
+              </corr>
+           </date>
+        </head>
+        <dateline>Tuesday &#8212; 1794 &#8212;</dateline>
+        
+        <opener> My dear Mrs. Taylor,</opener>
+        
+        <div type="bodyofletter">
+        			
+         <p>At length I have found an opportunity of writing to you at my leisure, but 
+            now, tho’ I have begun with the resolution of being very grave and very sentimental, 
+            I feel such an inclination to run into plain matters of fact, and narration, that I 
+            shall beg leave to content myself with a recital of the events of my journey to <name type="place" xml:id="London">Town</name> 
+            yesterday; requesting at the same time a recital of the events of your life, since 
+            I saw you, in <emph>return</emph>, we will leave gravity, and sentiment to be the order of the 
+            evening when we resume our Wednesday <foreign xml:lang="fr">tête a têtes</foreign>, and rejoice in the absence of <name type="person" xml:id="JoTay1">husband</name>, 
+            and <name type="person" xml:id="JaAld">Father</name> &#8212;</p>
+           
+           <p><name type="person" xml:id="JoBod">Mr. J: Boddington</name> and I set off for <name type="place" ref="London">Town</name> yesterday, by way of <name type="place" xml:id="Islington">Islington</name>, that we might pay our 
+              first visit to <name type="person" xml:id="WmGod">Godwin</name> at <name type="place" xml:id="SomersTown">Somers Town</name> &#8212; <note place="foot" resp="editor">
+                 Amelia Alderson first met William Godwin in June of 1794, when he traveled into Norfolk to visit Robert Merry, a radical poet, playwright and orator. Norwich progressives, 
+                 including Amelia’s father, James Alderson, enthusiastically embraced Godwin, who had just published <emph>Things as They Are; or, the Adventures of Caleb Williams</emph> (1794). 
+                 For many years, critics speculated about the romantic nature of Amelia’s relationship with Godwin and this letter provides the best evidence of the complex nature of their relationship, 
+                 which moved between the serious and the flirtatious. It also makes clear, however, that Amelia’s primary interest was in Godwin as a mentor. 
+                 For discussions of this letter, see Roxanne Eberle (“Amelia and John Opie: Conjugal Sociability and Romanticism’s Professional Arts,” <emph>Studies in Romanticism</emph>, vol. 53, no. 3, 2014, pp. 319-341; 
+                 Harriet Guest (“Amelia Alderson Opie: Sociability and Politics,” <emph>Bodleian Library Record</emph>, vol. 1, 2011, pp. 44-50); and Jon Mee 
+                 (<emph>Conversable Worlds</emph>, Oxford University Press, 2011) </note> After a most delightful ride thro’ some 
+              of the richest country I ever beheld, we arrived at about 1 o'clock at <name type="person" ref="WmGod">the Philosopher’s</name> 
+              house, whom we found with his hair <foreign xml:lang="fr">bien poudré</foreign>, and in a pair of new, sharp toe, 
+            red morocco slippers, not to mention his green coat and crimson underwaistcoat &#8212; 
+              <name type="person" ref="WmGod">He</name> received me very kindly, but <q type="dialogue">wondered I should think of being out of <emph>London</emph>!
+            &#8212; could I be either amused or <emph>instructed</emph> at <name type="place" xml:id="Southgate">Southgate</name>? How did I pass my time? 
+                 What were my pursuits? and a great deal more</q>, which frightened <name type="person" ref="JoBod">my <emph>protector</emph></name>, and tired 
+            me &#8212; till at last I told him, <q type="dialogue">I had not yet outlived my affections, that 
+               they bound me to the family at <name type="place" ref="Southgate">Southgate</name></q> &#8212; <q type="dialogue">“But was I to acknowledge any 
+                  other dominion than that of <emph><interp type="radicalDiscourse">Reason?</interp></emph></q>" <q type="dialogue">"But are you sure that my affections 
+                     in this case are not the <emph>result</emph> of <interp type="radicalDiscourse">Reason</interp>?"</q> <name type="person" ref="WmGod"> He</name> <emph> shrugged</emph> disbelief and after 
+              debating some time, <name type="person" ref="WmGod">he</name> told me I was more of the <emph>woman</emph> than when he saw me last 
+              &#8212; Rarely did we agree, and little did <name type="person" ref="WmGod">he</name> gain on me by his mode of attack, 
+              but <name type="person" ref="WmGod">he</name> seemed alarmed lest he should have offended me, and apologized several 
+            times, with much feeling for the harshness of his expressions &#8212; In short, 
+              <name type="person" ref="WmGod">he</name> convinced me that <interp type="radicalDiscourse">his theory has not yet gotten entire ascendancy over his 
+                 practice </interp> &#8212; <name type="person" ref="WmGod">He</name> has promised to come over to spend a day at <name type="place" ref="Southgate">Southgate</name> when 
+              I shall pit <interp type="radicalDiscourse">rational belief</interp> in <name type="person" xml:id="GeMor">Mr. M:</name> against <interp type="radicalDiscourse">Atheism</interp> in 
+                 <name type="person" ref="WmGod">Mr. Godwin</name> &#8212; <name type="person" ref="JoBod">Mr. B:</name> 
+              was disgusted with <emph>his</emph> manner, tho’ charmed with that of <name type="person" xml:id="JaBar">Barry</name> whom we called 
+              on last week &#8212; <name type="person" ref="WmGod">Godwin</name> told me he had talked of me to <name type="person" xml:id="ElizInc">Mrs. Inchbald</name>, that 
+              <name type="person" ref="ElizInc">she</name> recollected me, and wished to see me, so I determined to call on her 
+              &#8212; after I had paid my visit to <name type="person" xml:id="SaSid">Mrs. Siddons</name> &#8212; From <name type="person" ref="WmGod">Godwin's</name>, we proceeded 
+              to <name type="person" xml:id="IvHur">Ives Hurry's</name> in the <name type="place" xml:id="londonCity">City</name>, where we left our chair and horses, and
+              proceeded in a coach to <name type="person" xml:id="IsBee">Mrs. Beetham's</name>, to have my profile taken, and thence we 
+              drove to <name type="place" xml:id="MarlSt">Marlborough Street</name> &#8212; I found <name type="person" ref="SaSid">Mrs. Siddons</name> engaged in the very 
+              act of suckling <name type="person" xml:id="CeSid">her little baby</name>, and as handsome, and charming as ever &#8212; 
+              <name type="person" ref="SaSid">She</name> played last Wednesday before her <emph>month was</emph> up, and is now confined to her 
+              room with the cold she caught behind the scenes &#8212; There too, I saw <name type="person" xml:id="ChKem">Charles Kemble</name>, 
+              as I passed thro’ <name type="person" ref="SaSid">his sister's</name> dressing room, and thought <name type="person" ref="ChKem">him</name> so like 
+              <name type="person" xml:id="JoKem">Kemble</name>, 
+              <name type="person" xml:id="FrKTw">Mrs. Twiss</name>, and <name type="person" ref="SaSid">Mrs. Siddons</name>, that it was some time before I could recollect myself 
+              enough to know whether he was a man or a woman &#8212; <name type="person" xml:id="SaSid2">Sally</name> and <name type="person" xml:id="MaSid">Maria</name> tell my Father, 
+              are quite well, and inquired much concerning him &#8212; <name type="person" ref="CeSid">the baby</name> is all a baby can be, 
+            but <name type="person" ref="SaSid">Mrs. S:</name> laughs, and says it is a wit and a beauty already in her eyes &#8212; 
+              <name type="person" ref="SaSid">she</name> leaves town to-day, or <name type="person" ref="SaSid">she</name> would have invited me for a longer visit.<note place="foot" resp="editor">It seems likely 
+                 that Amelia Alderson first met the famed actress Sarah Kemble Siddons and the rest of the Kemble family when they were living in Norwich and performing at the Royal Theater. The degree of intimacy 
+                 between the Aldersons and the extended Kemble family is suggested by Amelia taking particular note of the greetings offered to her father by Siddons’s oldest daughters, Sally and Maria, who were 
+                 then in their teens. Amelia was closest to Frances Kemble, Siddons’s younger sister, who only acted for a very short period of time before marrying Francis Twiss, a theater critic, songwriter, 
+                 and Shakespearean. John Opie painted a portrait of Frances Kemble Twiss for Amelia, which was the subject of one of her earliest poems, “Lines Addressed by Mrs. Opie to her Husband, on his 
+                 painting the Picture of her friend, Mrs. Twiss, by her request,” (<emph>European Magazine</emph>, vol. 35, 1799, p. 408) </note></p>
+           
+           <p>From <name type="place" ref="MarlSt">Marlborough Street</name> (<foreign xml:lang="fr">àpropos</foreign> <name type="person" xml:id="MrsMaltz"> Mrs. Maltz</name> is in the country) we drove to 
+            <name type="person" ref="ElizInc">Mrs. Inchbald's</name> who is as pretty as ever, and much more easy and unreserved 
+            in her manner than when I last saw her with her we passed an hour as if it had 
+            been but one minute, and when I took my leave, <name type="person" ref="ElizInc">she</name> begged I would call on her 
+              again &#8212; <name type="person" ref="ElizInc">She</name> is in charming lodgings, and has just received two hundred pounds 
+              from <name type="person" xml:id="RiShe">Sheridan</name>, for a farce containing sixty pages only &#8212; &#8212; From <name type="person" ref="ElizInc">her</name> house 
+              we drove into the <name type="place" ref="londonCity">city</name> &#8212; <interp type="directAddress">you will wonder</interp>, perhaps, where we <emph>dined</emph> &#8212; Be it 
+            known unto you then that we never dine when we visit London &#8212; <name type="person" ref="IvHur">Ives Hurry</name> as 
+            soon as we arrive at his house always treats us with as much ice and biscuits as 
+            we can eat &#8212; we then sally forth, and eat ice again when we want it &#8212; so 
+            we did yesterday, and <name type="person" ref="SaSid">Mrs. Siddons'</name> roast beef had no temptations for us &#8212; 
+              as we returned to <name type="person" ref="IvHur">Ives Hurry’s</name>, we went to <emph><name type="person" xml:id="DaEat">Daniel Isaac Eaton's</name> shop</emph> &#8212;<note place="foot" rend="editor">Daniel Isaac 
+                 Eaton’s print shop was a gathering place for London radicals. A well-known critic of the Pitt government, Eaton was arrested twice in 1793 for writing and printing political pamphlets. Prosecuted for seditious libel, 
+                 he was acquitted by the jury on both occasions. In this letter, Amelia describes meeting Charles Sinclair, who had represented the Society for Constitutional Information at the British Convention held in Edinburgh 
+                 in the fall of 1793. The British Convention, which was modeled in part upon the French National Convention, attracted the attention of the government and many of its leaders were arrested. Another delegate, 
+                 Joseph Gerrald, who is also alluded to in this letter, was both arrested and prosecuted; indeed, Gerrald was imprisoned in a hulk when Amelia wrote this letter and transported to Australia shortly afterwards. 
+                 Sinclair was arrested but released, perhaps due to his connections to the Scottish aristocracy, including Lord Daer, the fourth Earl of Selkirk. Some historians have argued that Sinclair was not prosecuted 
+                 because he turned King’s evidence but others, including John Barrell, reject this argument. If Sinclair was suspected initially, he quickly regained the trust of London radicals. (See John Barrell, 
+                 <emph>Imagining the King’s Death</emph>, Oxford University Press, 2000). Godwin’s diary notes that he met Amelia, Ives Hurry, and Charles Sinclair on September 30, 1794, during one of his frequent visits to 
+                 Gerrald while he was imprisoned</note> we had 
+              scarcely entered it, when <name type="person" xml:id="ChSin">a very <emph>genteel</emph> <emph> looking young man</emph></name> came in &#8212; <name type="person" ref="ChSin">he</name>
+              examined <emph>us</emph>, and we <emph>him</emph>, and suspicion being the order of the day, I dared 
+            not talk to <name type="person" xml:id="AnEat">Mrs. Eaton</name>, till <name type="person" ref="ChSin">the stranger</name> was engaged in conversation with 
+              <name type="person" ref="JoBod">Boddington</name> &#8212;  I then told <name type="person" ref="AnEat">her</name> that curiosity led me to her shop, and that I came 
+                 from that <name type="place" xml:id="Norwich">city of sedition, <emph>Norwich</emph></name> &#8212; Her eyes sparkled, and <name type="person" ref="AnEat">she</name> asked me if I knew 
+              <emph><name type="person" xml:id="ChMar"> Charles Marsh</name></emph>? &#8212; <q type="dialogue">“you come from <name type="place" ref="Norwich">Norwich</name>, cried <name type="person" ref="ChSin">the stranger</name>, allow me to ask 
+                 you some questions then and etc.,</q> <name type="person" ref="ChSin"> he</name> <emph> put</emph> questions, I <emph> answered</emph>  them, and in a 
+              short time <name type="person" ref="JoBod">Mr. J: B:</name> and myself were both so charmed with his manners, and 
+            conversation, that we almost fancied we had known him before &#8212; we saw that 
+            he was intimate with <name type="person" ref="AnEat">Mrs. Eaton</name> and her sweet girl, and seemed to be as much 
+              at home in the shop as the counter itself, so we had no <emph>fears</emph> of <name type="person" ref="ChSin">him</name> &#8212; at 
+              last we became so <emph>fraternized</emph>, that <name type="person" ref="AnEat">Mrs. Eaton</name> shut the shop door, and 
+            gave us chairs &#8212; I will not relate the <emph>information</emph> I heard, but I 
+            could have talked with him all night &#8212; <name type="person" ref="ChSin"><interp type="directAddress">"Well, but who was he?" 
+               Have patience, and you shall hear.</interp></name> &#8212; Finding that <name type="person" ref="ChSin">he</name> was just returned 
+            from <name type="place" xml:id="Scotland">Scotland</name>, and was <foreign xml:lang="fr">“au fait”</foreign> of all the proceedings there, and that his 
+              connexions were those of high life, I asked where <name type="person" xml:id="LordDaer">Lord Daer</name> was, and <emph>lamented</emph> 
+              that <emph><name type="person" ref="LordDaer">he</name></emph> was not one of the <emph>arrested members</emph> &#8212; <name type="person" ref="ChSin">He</name> smiled, and said that 
+              <name type="person" ref="LordDaer">Lord D:</name> wanted <emph>nerve</emph> then, and fortitude to resist the anxieties of his 
+            Mother and sisters, the most accomplished women in England &#8212; That the 
+            very day of the arrest <name type="person" ref="ChSin">he</name> had received a letter from <name type="person" ref="LordDaer">Lord Daer</name>, promising to 
+            be with <emph>them</emph> if possible, and in the evening, another note to say 
+              <name type="person" xml:id="LadySelkirk">Lady Selkirk</name> was ill, and that <name type="person" ref="LordDaer">he</name> could not leave her &#8212; <q type="dialogue">"Indeed! 
+            I thought he <emph>bailed</emph> you said Mrs. Eaton</q> &#8212; <q type="dialogue">"Oh! no replied the other</q> &#8212; 
+              <name type="person" ref="JoBod">Mr. B:</name> and I looked at each other, wondering who "you" was &#8212; but 
+              I began to suspect, and went on <emph>questioning</emph> him &#8212; <name type="person" ref="ChSin">he</name> said, they dared not hurt 
+                 <name type="person" ref="LordDaer">Lord D:</name> that they <emph>dared</emph> not attack <emph>any man</emph> of <emph>connections</emph> and <emph>estate</emph> in <name type="place" ref="Scotland">Scotland</name> 
+                 &#8212; that had <emph><name type="person" ref="ChSin">he</name></emph> <emph> himself</emph> been <emph>condemned</emph>, and <emph>sent to <name type="place" xml:id="BotBay">Botany Bay</name></emph>, 
+                 <emph>his</emph> connections would have <emph>risen to a man</emph> &#8212; I ventured to say, that how 
+                 ever amiable Lord D's family might be, <name type="person" ref="LordDaer">he</name> ought to have <emph>disregarded</emph> their 
+              influence <interp type="biblicalradicalDiscourse">for who so ever loves Father or Mother etc.</interp><note place="foot" resp="editor">Alderson paraphrases a verse from Matthew 10:37 here but 
+                 substitutes commitment to radical principles for Christian doctrine</note> <name type="person" ref="ChSin"> He</name> replied that I was quite 
+                 right, and that he himself <emph>had</emph> disregarded them &#8212; that <interp type="radicalDiscourse">democratic women</interp> were rare, 
+               and that he heartily wished he could introduce me to two charming <interp type="radicalDiscourse">patriots</interp> at 
+                 <emph><name type="place" xml:id="Edinburgh">Edinburgh</name></emph> &#8212; who were tho’ women, up to circumstances &#8212; that <name type="person" ref="ChSin">he</name> rejoiced to 
+                    learn from <name type="person" xml:id="RoMer">Merry</name>, that <emph><name type="person" xml:id="AnMer">Mrs. Merry</name></emph>, was so <emph>firm</emph>, and a great deal more, that 
+            raised my curiosity to a most painful height &#8212; at last, having said that 
+               <name type="person" ref="ChSin">he</name> had laid it down as a rule for his conduct, that a <interp type="radicalDiscourse">Patriot</interp> should be without 
+                    the <emph>hope of living</emph>, or <emph>the fear of dying</emph>, he took his leave, leaving our minds 
+                    elevated and delighted &#8212; <name type="person" ref="AnEat">Mrs. Eaton</name> told us it was <name type="person" ref="ChSin">Mr. <emph>Sinclair</emph>, Sir John's Nephew</name>
+               he who was tried, and acquitted &#8212; He says <name type="person" ref="LordDaer">Lord Daer</name> is supposed to be dying, and 
+               <name type="person" ref="ChSin">he</name> himself looks in bad health, but his countenance is fine, and his manners elegant 
+            &#8212; <q type="dialogue">"What think you of <name type="person" xml:id="WmWin">Mr. Windham</name>?"</q> said I, <q type="dialogue">O the poor creature is out of his 
+               element &#8212; <name type="person" ref="WmWin">he</name> might have done very well for a <emph>college disputant</emph> or a <emph>Greek 
+            professor</emph>, perhaps, but that's all”</q> &#8212; <q type="dialogue">Why do the <name type="place" ref="Norwich">Norwich</name> <interp type="radicalDiscourse"> Patriots</interp> espouse 
+               <name type="person" xml:id="JaMin">Mingay</name>? what can they expect? said he &#8212; <name type="person" ref="JaMin">He</name> might be a very good implement of 
+               resentment against <name type="person" ref="WmWin">Windham</name>, but, tho’ the friend of their necessity, not of their 
+               <emph>choice</emph>.<note place="foot" rend="editor">James Mingay, a Norfolk lawyer and politician, stood unsuccessfully against William Windham for parliament in 1795. Windham had been a progressive Whig but by 1794 had aligned
+                  himself with Edmund Burke, thus alienating many of Norwich’s more radical citizens, including Amelia and her father. Windham was Secretary of War in August of 1794 and remained 
+                  so until 1801</note> "</q> <name type="person" ref="ChSin"><interp type="directAddress">Is he not right?"</interp></name><note place="foot" resp="editor">The letter breaks off in manuscript as well 
+                     as in Brightwell's partial transcription</note></p>
+        </div>
+         
+      </body>
+     
+  </text>
+</TEI>

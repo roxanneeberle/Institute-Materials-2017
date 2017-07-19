@@ -1,0 +1,5 @@
+<root>
+    <p speaker="hamlet">Sad <sp>Hamlet</sp> is a prince of Denmark.</p>
+    <p speaker='ophelia'>Things end <emph>badly</emph> for melancholy Ophelia.</p>
+    <p speaker="nobody">The nefarious <person>Julius Caesar</person> does not appear in this play.</p>
+</root>
