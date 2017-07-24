@@ -40,7 +40,7 @@ Time | Activity | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Modeling: exploring the model with XQuery
+## 4:00–5:30: [Modeling: exploring the model with XQuery](explore_model_xquery.md)
 
 <!-- ### Topics and Activities
 * Recap of the topics that have been discussed so far: tokenization, normalization, and collation from the point of view of annotations (as each of these activities entails a form of annotation)
@@ -55,3 +55,4 @@ Time | Activity | Type
 * Varieties of layered editions
 * -->
 
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Please complete [Week 2, Day 4 feedback](week_2_day_4_feedback.md) (just copy and paste it into a plain-text document) and email your response to Kaylen at [kaylensanders@pitt.edu](mailto:kaylensanders@pitt.edu) with the subject heading “Week 2, Day 4 feedback”.
