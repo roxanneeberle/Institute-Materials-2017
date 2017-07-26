@@ -3,7 +3,7 @@ from flask import render_template
 from flask import request
 
 defaults = { 'title': 'dynamic request header index.html' ,
-             'header': 'Default "header" is used. Give request parameter header with a value to change it.',
+             'header': 'Default header. Give request parameter header with a value to change it.',
              'paragraph': 'This is index.html with dynamic contents in response to a request for / (ROOT) in flask-request.py'
 }
 
