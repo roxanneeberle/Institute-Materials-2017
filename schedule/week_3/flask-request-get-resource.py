@@ -2,9 +2,9 @@ from flask import Flask
 from flask import render_template
 from flask import request
 
-defaults = { 'title': 'dynamic request header index.html' ,
-             'header': 'Default "header" is used. Give request parameter header with a value to change it.',
-             'paragraph': 'This is index.html with dynamic contents in response to a request for / (ROOT) in flask-request.py'
+defaults = { 'title': 'Opie Letters Search.html' ,
+             'header': 'Amelia Alderson Opie Letters: Searching for Persons, Places, and Topics',
+             'paragraph': 'Single word searches will reveal the most expansive results.'
 }
 
 app = Flask(__name__)
@@ -21,10 +21,11 @@ def get_my_index():
 @app.route("/resource/<resource_name>")
 def get_local_resource(resource_name = ''):
     return render_template("resource.html", resource_name=resource_name)
+    
 
 @app.route("/resource/<resource_name>/value/<value>")
 def get_local_resource_with_value(resource_name = '', value = ''):
-    return render_template("resource.html", resource_name=resource_name, value=value)
+    return render_template("resource1.html", resource_name=resource_name, value=value)
 
 def get_request_value_with_fallback(key):
     if request.args.get(key):
