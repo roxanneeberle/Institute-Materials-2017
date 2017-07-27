@@ -12,6 +12,7 @@ from flask import render_template
 We added a few more templates and resources in the [templates directory](templates/)
 
 One is the base template [template.html](templates/template.html) with the following contents:
+
 ```html
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -34,10 +35,13 @@ One is the base template [template.html](templates/template.html) with the follo
   </body>
 </html>
 ```
-We see three template blocks `{% block header %}` `{% block content %}` `{% block footer %}`.
+
+We see three template blocks `{% block head %}` `{% block content %}` `{% block footer %}`.
+
 In the second new template [resource.html](templates/resource.html) we put some minor logic for including _resources_ into the template: 
+
 ```html
-<?xml version="1.0" encoding="utf-8"?>
+?xml version="1.0" encoding="utf-8"?&gt;
 {% extends 'template.html' %}
 {% block content %}
     {% if resource_name == 'resource1' %}
@@ -55,11 +59,13 @@ In the second new template [resource.html](templates/resource.html) we put some 
     {% endif %}
 {% endblock %}
 ```
+
 It also uses directive `{% extends 'template.html' %}` to connect the block `{% block content %}` to the one in _template.html_.
 
 Some of the files are also included. (Not the missing one though :)). In that case we use additional directive to the include `{% include 'missing1.html' ignore missing %}` otherwise the request would fail.
 
 To continue on the example from Flask intro the new templates could be used like this:
+
 ```python
 from flask import Flask
 from flask import render_template
@@ -89,6 +95,21 @@ def get_local_resource(resource_name = ''):
 def get_local_resource_with_value(resource_name = '', value = ''):
     return render_template("resource.html", resource_name=resource_name, value=value)
 
+@app.route("/neh-artifact/<idnbr>")
+def get_neh_artifact(idnbr = ''):
+    #return render_template("resource.html", resource_name=idnbr)
+    primary_accept = get_list_comma_header(get_request_header('Accept', ''))[0]
+    if (primary_accept == "text/html"):
+        return ("Request for artifact: " + idnbr + " You primarily want: " + primary_accept + " " + " but not available yet.", 404)
+    return ("Request for artifact: " + idnbr + " You primarily want: " + primary_accept) 
+
+def get_list_comma_header(header_value):
+    return [x.strip() for x in header_value.split(',')]
+
+def get_request_header(header, default):
+    # Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    return request.headers.get(header, default)
+
 def get_request_value_with_fallback(key):
     if request.args.get(key):
         return request.args.get(key)
@@ -97,6 +118,7 @@ def get_request_value_with_fallback(key):
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
 ``` 
+
 See [flask-request-get-resource.py](flask-request-get-resource.py).
 
 We added a couple of new decorators `@app.route("/resource/<resource_name>")`, `@app.route("/resource/<resource_name>/value/<value>")`. Like we saw in the previous session. `<resource_name>` and `<name>` are variables in the decorator that will be passed to the function it decorates.
